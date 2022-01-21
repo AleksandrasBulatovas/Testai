@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+body {
+    font-family: 'open sans', sans-serif;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+  .column {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+ }
+
+   .icon1,
+   .icon2,
+   .icon3, 
+   .icon4 {
+      text-align: center;
+      width:200px;
+      height:200px;
+      border-radius: 5px;
+      margin:20px auto;
+  }
+  .icon1 {
+    background-color: aqua;
+    background-image: url("../assets/img/apple.svg");
+    background-repeat: no-repeat;
+  
+     }
+
+   .icon2 {
+  background-color: rgb(34, 60, 204);
+  background-image: url("../assets/img/random.svg");
+  background-repeat: no-repeat;
+  
+  }
+
+  .icon3 {
+    background-color: #ec9a90;
+    background-image: url("../assets/img/university.svg");
+    background-repeat: no-repeat;
+    
+  }
+
+  .icon4 {
+    background-color: grey;
+    background-image: url("../assets/img/users.svg");
+    background-repeat: no-repeat;
+    
+  }
+
+ h2 {
+    text-align: center;
+    color: #ec9a90;
+    
+}
+.description {
+    color: #a1a1a1;
+    padding: 0 35px;
+}
